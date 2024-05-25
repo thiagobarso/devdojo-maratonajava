@@ -3,6 +3,8 @@ package academy.devdojo.ZZjdbc.service;
 import academy.devdojo.ZZjdbc.domain.Producer;
 import academy.devdojo.ZZjdbc.repository.ProducerRepository;
 
+import java.util.List;
+
 public class ProducerService {
 
     public static void save(Producer producer){
@@ -17,6 +19,10 @@ public class ProducerService {
     public static void update(Producer producer){
         requiredValidId(producer.getId());
         ProducerRepository.update(producer);
+    }
+
+    public static List<Producer> findAll(){
+        return ProducerRepository.findAll();
     }
 
     public static void requiredValidId(Integer id){
