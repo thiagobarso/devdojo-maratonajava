@@ -15,7 +15,8 @@ public class ConnectionFactoryTest01 {
 //        ProducerService.save(producer);
 //        ProducerService.delete(2);
 //        ProducerService.update(producerTOUpdate);
-        List<Producer> all = ProducerService.findAll();
-        log.info("Producers found '{}'", all);
+//        List<Producer> all = ProducerService.findAll();
+//        log.info("Producers found '{}'", all);
+        ProducerService.showProducerMetadata();
     }
 }
