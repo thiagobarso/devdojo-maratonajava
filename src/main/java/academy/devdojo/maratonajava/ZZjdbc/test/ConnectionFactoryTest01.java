@@ -1,10 +1,8 @@
-package academy.devdojo.ZZjdbc.test;
+package academy.devdojo.maratonajava.ZZjdbc.test;
 
-import academy.devdojo.ZZjdbc.domain.Producer;
-import academy.devdojo.ZZjdbc.service.ProducerService;
+import academy.devdojo.maratonajava.ZZjdbc.domain.Producer;
+import academy.devdojo.maratonajava.ZZjdbc.service.ProducerService;
 import lombok.extern.log4j.Log4j2;
-
-import java.util.List;
 
 @Log4j2
 public class ConnectionFactoryTest01 {

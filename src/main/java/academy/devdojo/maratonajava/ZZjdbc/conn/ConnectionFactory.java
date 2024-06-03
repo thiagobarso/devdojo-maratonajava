@@ -1,4 +1,4 @@
-package academy.devdojo.ZZjdbc.conn;
+package academy.devdojo.maratonajava.ZZjdbc.conn;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

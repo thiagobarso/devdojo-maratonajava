@@ -1,7 +1,7 @@
-package academy.devdojo.ZZjdbc.service;
+package academy.devdojo.maratonajava.ZZjdbc.service;
 
-import academy.devdojo.ZZjdbc.domain.Producer;
-import academy.devdojo.ZZjdbc.repository.ProducerRepository;
+import academy.devdojo.maratonajava.ZZjdbc.domain.Producer;
+import academy.devdojo.maratonajava.ZZjdbc.repository.ProducerRepository;
 
 import java.util.List;
 

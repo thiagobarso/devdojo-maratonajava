@@ -1,7 +1,7 @@
-package academy.devdojo.ZZjdbc.repository;
+package academy.devdojo.maratonajava.ZZjdbc.repository;
 
-import academy.devdojo.ZZjdbc.conn.ConnectionFactory;
-import academy.devdojo.ZZjdbc.domain.Producer;
+import academy.devdojo.maratonajava.ZZjdbc.conn.ConnectionFactory;
+import academy.devdojo.maratonajava.ZZjdbc.domain.Producer;
 import lombok.extern.log4j.Log4j2;
 
 import java.sql.*;
