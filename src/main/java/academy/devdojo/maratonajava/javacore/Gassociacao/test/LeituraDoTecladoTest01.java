@@ -15,7 +15,5 @@ public class LeituraDoTecladoTest01 {
         System.out.println("Nome "+nome);
         System.out.println("Idade "+idade);
         System.out.println("Sexo "+sexo);
-
-
     }
 }
