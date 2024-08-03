@@ -1,7 +1,10 @@
 package academy.devdojo.maratonajava.javacore.Jmodificadorfinal.test;
 
 import academy.devdojo.maratonajava.javacore.Jmodificadorfinal.dominio.Carro;
+import academy.devdojo.maratonajava.javacore.Jmodificadorfinal.dominio.Ferrari;
 
+//Se colocar final aqui a classe não poderá ser estendida por outra classe filho
+//public final class CarroTest01
 public class CarroTest01 {
     public static void main(String[] args) {
         Carro carro = new Carro();
@@ -9,5 +12,8 @@ public class CarroTest01 {
         System.out.println(carro.COMPRADOR);
         carro.COMPRADOR.setNome("Kuririn");
         System.out.println(carro.COMPRADOR);
+        Ferrari ferrari = new Ferrari();
+        ferrari.setNome("Enzo");
+        ferrari.imprime();
     }
 }
