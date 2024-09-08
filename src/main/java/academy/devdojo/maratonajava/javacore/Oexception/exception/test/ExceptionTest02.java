@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class ExceptionTest02 {
     public static void main(String[] args) throws IOException {
-        criarNovoArquivqo();
+        criarNovoArquivo();
     }
 
     private static void criarNovoArquivo() throws IOException {
