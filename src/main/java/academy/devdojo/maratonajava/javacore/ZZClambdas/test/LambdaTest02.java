@@ -1,6 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZBcompartamento.test;
-
-import academy.devdojo.maratonajava.javacore.Ycolecoes.test.BinarySearchTest01;
+package academy.devdojo.maratonajava.javacore.ZZClambdas.test;
 
 import java.util.ArrayList;
 import java.util.List;
