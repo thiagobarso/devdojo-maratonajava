@@ -267,8 +267,8 @@ public class ProducerRepository {
         log.info("Finding producers by name with callable statement '{}'", name);
         List<Producer> producers = new ArrayList<>();
         try (Connection conn = ConnectionFactory.getConnection();
-             PreparedStatement ps = callableStatamentFindByName(conn, name);
-             ResultSet rs = ps.executeQuery()) {
+             CallableStatement cs = callableStatamentFindByName(conn, name);
+             ResultSet rs = cs.executeQuery()) {
             while (rs.next()) {
                 Producer producer = Producer.builder().id(rs.getInt("id")).name(rs.getString("name")).build();
                 producers.add(producer);
