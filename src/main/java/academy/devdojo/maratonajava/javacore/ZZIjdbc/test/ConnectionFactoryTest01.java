@@ -23,6 +23,10 @@ public class ConnectionFactoryTest01 {
 //        List<Producer> producers = ProducerService.findByNameAndUpdateToUpperCase("Deen");
 //        List<Producer> producers = ProducerService.findByNameAndInsertWhenNotFound("A-1 Pictures");
 //        log.info("Produces found: '{}'", producers);
-        ProducerService.findByNameAndDelete("A-1 Pictures");
+//        ProducerService.findByNameAndDelete("A-1 Pictures");
+//        List<Producer> producers = ProducerService.findByNamePreparedStatement("B or X'='X'");
+        List<Producer> producers = ProducerService.findByNamePreparedStatement("Bo");
+        log.info("Produces found: '{}'", producers);
     }
+
 }
