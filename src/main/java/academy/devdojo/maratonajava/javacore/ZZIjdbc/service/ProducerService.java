@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.ZZIjdbc.service;
 
-import academy.devdojo.maratonajava.javacore.ZZIjdbc.domnio.Producer;
+import academy.devdojo.maratonajava.javacore.ZZIjdbc.dominio.Producer;
 import academy.devdojo.maratonajava.javacore.ZZIjdbc.repository.ProducerRepository;
 
 import java.util.List;

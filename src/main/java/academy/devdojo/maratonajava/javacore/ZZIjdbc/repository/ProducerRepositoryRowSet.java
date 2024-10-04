@@ -1,13 +1,12 @@
 package academy.devdojo.maratonajava.javacore.ZZIjdbc.repository;
 
 import academy.devdojo.maratonajava.javacore.ZZIjdbc.conn.ConnectionFactory;
-import academy.devdojo.maratonajava.javacore.ZZIjdbc.domnio.Producer;
+import academy.devdojo.maratonajava.javacore.ZZIjdbc.dominio.Producer;
 import academy.devdojo.maratonajava.javacore.ZZIjdbc.listener.CustomRowSetListener;
 
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JdbcRowSet;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
